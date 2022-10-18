@@ -1,0 +1,89 @@
+{
+  "props": [
+    {
+      "name": "Background/Black",
+      "type": "color",
+      "value": "#000000",
+      "category": "color",
+      "meta": {
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "id": "LAeUX4qZc"
+      }
+    },
+    {
+      "name": "Color/Primary",
+      "type": "color",
+      "value": "#000000",
+      "category": "color",
+      "meta": {
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "id": "swtsxTTQc"
+      }
+    },
+    {
+      "name": "Color/White",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "id": "7w9j3A9TD"
+      }
+    },
+    {
+      "name": "Content gap - Default",
+      "type": "spacing",
+      "value": "24px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "id": "HvxFosjUL"
+      }
+    },
+    {
+      "name": "Page Max width",
+      "type": "spacing",
+      "value": "960px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "id": "SkiZ8xvud"
+      }
+    },
+    {
+      "name": "Placeholder/Black",
+      "type": "color",
+      "value": "#0000000F",
+      "category": "color",
+      "meta": {
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "id": "mxoInlDRv"
+      }
+    },
+    {
+      "name": "Text/Black",
+      "type": "color",
+      "value": "#000000",
+      "category": "color",
+      "meta": {
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "id": "aY0hpGRf8"
+      }
+    },
+    {
+      "name": "Text/White",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "id": "Vyfg7aK-v"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: var(--token-SkiZ8xvud);
+  position: relative;
+  min-width: 0;
+  padding: 48px 16px;
+}
+.leftHandSide {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.text {
+  position: relative;
+  width: auto;
+  height: auto;
+  color: var(--token-Vyfg7aK-v);
+}
+.rightHandSide {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.rightHandSide > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.rightHandSide > :global(.__wab_flex-container) > *,
+.rightHandSide > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rightHandSide > :global(.__wab_flex-container) > picture > img,
+.rightHandSide
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.link__l3Bj {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.svg__z6G17 {
+  position: relative;
+  object-fit: cover;
+  color: var(--token-Vyfg7aK-v);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.link__pi8Eu {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.svg__imMMy {
+  position: relative;
+  object-fit: cover;
+  color: var(--token-Vyfg7aK-v);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.link__joeTz {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.svg__pTcXd {
+  position: relative;
+  object-fit: cover;
+  color: var(--token-Vyfg7aK-v);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,319 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
+      "projectApiToken": "L5kqyh9xqKCqpdc8gqCglVcLZTxdkkP1Dt9pLUlWpyKVItIbbXr5272ePgMpZZiezhSe0AIOuQB353jQnw",
+      "projectName": "plasmic-cms",
+      "version": "6.7.0",
+      "cssFilePath": "plasmic/plasmic_cms/plasmic_plasmic_cms.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_cms/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "w6HdOz-Pcn",
+          "name": "CmsRowField",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "Ds6UdKRHmq",
+          "name": "CmsRowLink",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "dj_Vc2QmFA",
+          "name": "CmsRowImage",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "r3UO4W-xcR",
+          "name": "CmsRowFieldValue",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "OREVbGCcgN",
+          "name": "CmsCredentialsProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "8N9-WfZSaq",
+          "name": "CmsQueryRepeater",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        }
+      ]
+    },
+    {
+      "projectId": "5VnySwGRBKmpnaR3N63wcy",
+      "projectApiToken": "gOKDqYXooptOnFZXdzf6if8Db4bASGUjAFia5TjSkTA5iZ11tAti5eFRnllCkdhoiFAmwWsh1Cc9R2y3TT6w",
+      "projectName": "memeland",
+      "version": "latest",
+      "cssFilePath": "plasmic/memeland/plasmic_memeland.module.css",
+      "components": [
+        {
+          "id": "T_wmH0VzCNqo",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "2K2IQcamIFm",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "ObQPJ3fHQ3",
+          "name": "ContentText",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicContentText.tsx",
+          "importSpec": {
+            "modulePath": "ContentText.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicContentText.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QMEANiCVTU",
+          "name": "BlockText",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicBlockText.tsx",
+          "importSpec": {
+            "modulePath": "BlockText.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicBlockText.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0jL7M7LmiF",
+          "name": "BlockPicture",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicBlockPicture.tsx",
+          "importSpec": {
+            "modulePath": "BlockPicture.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicBlockPicture.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nPoxm0oq35",
+          "name": "Card",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicCard.tsx",
+          "importSpec": {
+            "modulePath": "Card.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "JlT0pA2N8X",
+          "name": "ProjectCell",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicProjectCell.tsx",
+          "importSpec": {
+            "modulePath": "ProjectCell.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicProjectCell.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "VBtFIihioZ",
+          "name": "SiteCell",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicSiteCell.tsx",
+          "importSpec": {
+            "modulePath": "SiteCell.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicSiteCell.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CDeTIfElNW",
+          "name": "NavigationBar",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicNavigationBar.tsx",
+          "importSpec": {
+            "modulePath": "NavigationBar.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicNavigationBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "i4UkpZ_8Of",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "G3xAKxPUNE",
+          "name": "DemoTerms",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicDemoTerms.tsx",
+          "importSpec": {
+            "modulePath": "DemoTerms.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicDemoTerms.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "qDmInQgC8z",
+          "name": "Demoblocktext",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicDemoblocktext.tsx",
+          "importSpec": {
+            "modulePath": "Demoblocktext.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicDemoblocktext.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QzvKI9zkHT",
+          "name": "ExampleTerms",
+          "type": "managed",
+          "projectId": "5VnySwGRBKmpnaR3N63wcy",
+          "renderModuleFilePath": "plasmic/memeland/PlasmicExampleTerms.tsx",
+          "importSpec": {
+            "modulePath": "ExampleTerms.tsx"
+          },
+          "cssFilePath": "plasmic/memeland/PlasmicExampleTerms.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "ZuVfk934Gtc",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/memeland/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "bu03zRh4d_0",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/memeland/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "5VdRTlS3g",
+          "name": "DiscordIcon",
+          "moduleFilePath": "plasmic/memeland/icons/PlasmicIcon__Discord.tsx"
+        },
+        {
+          "id": "OnIlz_C55",
+          "name": "TwitterIcon",
+          "moduleFilePath": "plasmic/memeland/icons/PlasmicIcon__Twitter.tsx"
+        },
+        {
+          "id": "-FyJ_OTLL",
+          "name": "OpenseaIcon",
+          "moduleFilePath": "plasmic/memeland/icons/PlasmicIcon__Opensea.tsx"
+        },
+        {
+          "id": "ULoaFsFVk",
+          "name": "MenuIcon",
+          "moduleFilePath": "plasmic/memeland/icons/PlasmicIcon__Menu.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "4Osb55W1E",
+          "name": "memeland banner",
+          "filePath": "plasmic/memeland/images/memelandBanner.gif"
+        },
+        {
+          "id": "wLtlMNkGM",
+          "name": "memecoin",
+          "filePath": "plasmic/memeland/images/memecoin.gif"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/memeland/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "g0EUfRA_1i",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "7G0LwFWSDL",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "y4OOpP-P3O6TD",
+        "name": "Screen",
+        "projectId": "5VnySwGRBKmpnaR3N63wcy",
+        "contextFilePath": "plasmic/memeland/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+}
